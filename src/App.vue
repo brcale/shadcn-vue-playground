@@ -1,8 +1,8 @@
-<script setup lang="ts">
-import HelloWorld from "./components/HelloWorld.vue";
-</script>
-
 <template>
-  <div></div>
-  <HelloWorld msg="Vite + Vue" />
+  <!-- <NavBar /> -->
+  <div class="container px-2">
+    <RouterView />
+  </div>
 </template>
+
+<script setup></script>
